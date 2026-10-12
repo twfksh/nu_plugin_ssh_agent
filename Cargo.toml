@@ -1,0 +1,10 @@
+[package]
+name = "nu_plugin_ssh_agent"
+version = "0.1.0"
+edition = "2021"
+description = "A Nushell plugin that starts and reuses ssh-agent"
+license = "MIT"
+
+[dependencies]
+nu-plugin = "0.115.1"
+nu-protocol = "0.115.1"
